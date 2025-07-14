@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+}
+.nav-bar {
+  display: flex;
+
+  height: 5rem;
+  padding: 10px;
+  margin: 10px;
+}
+.logo {
+  width: 25%;
+
+  font-size: 3rem;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(222, 216, 216);
+  font-size: 1.2rem;
+}
+.singin {
+  width: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singin button {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 30px;
+  background-color: rgb(180, 178, 178);
+  font-weight: 600;
+  border: 0;
+  color: rgb(33, 33, 33);
+  box-shadow: 0px 0px 15px rgb(217, 194, 245);
+}
+.singin button:hover {
+  background-color: rgb(231, 223, 223);
+}
+.main-page {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+
+  height: 100vh;
+}
+.main-side-bar {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 8rem;
+}
+.main-upper-button button {
+  margin: 20px 0px;
+  height: 2rem;
+
+  width: 15rem;
+  background-color: black;
+  color: rgb(222, 216, 216);
+  border: 2px solid rgb(94, 10, 142);
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgb(126, 78, 154);
+}
+.main-upper-button button:hover{
+ box-shadow: 0px 0px 15px rgb(211, 166, 237); 
+}
+.main-side-bar .big-leteer {
+  font-size: 4rem;
+  line-height: 70px;
+  color: rgb(230, 228, 228);
+}
+.main-side-bar .peraagraph {
+  color: rgb(131, 129, 129);
+  margin: 20px 0px;
+  width: 35rem;
+}
+.two-button {
+  margin-top: 20px;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.two-button .first-button {
+  background-color: black;
+  border: 0.5px solid rgb(50, 46, 61);
+  /* box-shadow: 0px 0px 10px white; */
+  color: rgb(91, 89, 211);
+  height: 2.8rem;
+  width: 45%;
+  font-weight: 100;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.two-button .first-button:hover{
+  color: rgb(43, 43, 235);
+  box-shadow: 0px 0px 10px rgb(47, 43, 242);
+}
+.two-button .second-button {
+  background-color: rgb(178, 175, 175);
+  border: 0;
+  color: rgb(21, 21, 21);
+  height: 2.8rem;
+  width: 40%;
+  border-radius: 40px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.two-button .second-button:hover{
+  background-color: rgb(227, 224, 224);
+  box-shadow: 0px 0px 10px rgb(122, 122, 124);
+}
+.animaed-logo {
+  width: 50%;
+}
+.robot-3d{
+  height: 75%;
+  
+}
